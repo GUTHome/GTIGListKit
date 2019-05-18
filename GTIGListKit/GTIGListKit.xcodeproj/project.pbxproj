@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		287A0ADC37820D972CDA36C8 /* libPods-GTIGListKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C73BFCC287752E2D30F5A09 /* libPods-GTIGListKitTests.a */; };
+		6197556422901D05001960D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197556322901D05001960D7 /* AppDelegate.m */; };
+		6197556722901D05001960D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197556622901D05001960D7 /* ViewController.m */; };
+		6197556A22901D05001960D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6197556822901D05001960D7 /* Main.storyboard */; };
+		6197556C22901D0B001960D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6197556B22901D0B001960D7 /* Assets.xcassets */; };
+		6197556F22901D0B001960D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6197556D22901D0B001960D7 /* LaunchScreen.storyboard */; };
+		6197557222901D0B001960D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197557122901D0B001960D7 /* main.m */; };
+		6197557C22901D0C001960D7 /* GTIGListKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197557B22901D0C001960D7 /* GTIGListKitTests.m */; };
+		6197558722901D0C001960D7 /* GTIGListKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197558622901D0C001960D7 /* GTIGListKitUITests.m */; };
+		61975596229053B0001960D7 /* GTListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61975595229053B0001960D7 /* GTListViewController.m */; };
+		6E552B8523FEE5A94F108FFD /* libPods-GTIGListKitUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2941FC5A9B5C30E3077BB5 /* libPods-GTIGListKitUITests.a */; };
+		DB70BAEA4A5B118592BF845C /* libPods-GTIGListKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 178EFFD950E56B3B038F4A0E /* libPods-GTIGListKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6197557822901D0C001960D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6197555722901D05001960D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6197555E22901D05001960D7;
+			remoteInfo = GTIGListKit;
+		};
+		6197558322901D0C001960D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6197555722901D05001960D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6197555E22901D05001960D7;
+			remoteInfo = GTIGListKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		178EFFD950E56B3B038F4A0E /* libPods-GTIGListKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTIGListKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6197555F22901D05001960D7 /* GTIGListKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTIGListKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6197556222901D05001960D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6197556322901D05001960D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6197556522901D05001960D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6197556622901D05001960D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6197556922901D05001960D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6197556B22901D0B001960D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6197556E22901D0B001960D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6197557022901D0B001960D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6197557122901D0B001960D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6197557722901D0C001960D7 /* GTIGListKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTIGListKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6197557B22901D0C001960D7 /* GTIGListKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTIGListKitTests.m; sourceTree = "<group>"; };
+		6197557D22901D0C001960D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6197558222901D0C001960D7 /* GTIGListKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTIGListKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6197558622901D0C001960D7 /* GTIGListKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTIGListKitUITests.m; sourceTree = "<group>"; };
+		6197558822901D0C001960D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61975594229053B0001960D7 /* GTListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTListViewController.h; sourceTree = "<group>"; };
+		61975595229053B0001960D7 /* GTListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTListViewController.m; sourceTree = "<group>"; };
+		6C73BFCC287752E2D30F5A09 /* libPods-GTIGListKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTIGListKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3BCF378768E845BFAF3C7C /* Pods-GTIGListKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTIGListKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTIGListKit/Pods-GTIGListKit.release.xcconfig"; sourceTree = "<group>"; };
+		790CD11C006F2F2F045B5E59 /* Pods-GTIGListKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTIGListKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTIGListKit/Pods-GTIGListKit.debug.xcconfig"; sourceTree = "<group>"; };
+		8D6D73841B33823D87A1827C /* Pods-GTIGListKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTIGListKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTIGListKitTests/Pods-GTIGListKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F2941FC5A9B5C30E3077BB5 /* libPods-GTIGListKitUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTIGListKitUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86BAEDB56FB1570B395E6C8 /* Pods-GTIGListKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTIGListKitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTIGListKitUITests/Pods-GTIGListKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E51B06E52DCAA5B73783B4C7 /* Pods-GTIGListKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTIGListKitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTIGListKitUITests/Pods-GTIGListKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EBCF214440F0D14158EDAF0C /* Pods-GTIGListKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTIGListKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTIGListKitTests/Pods-GTIGListKitTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6197555C22901D05001960D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB70BAEA4A5B118592BF845C /* libPods-GTIGListKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6197557422901D0C001960D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287A0ADC37820D972CDA36C8 /* libPods-GTIGListKitTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6197557F22901D0C001960D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E552B8523FEE5A94F108FFD /* libPods-GTIGListKitUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6197555622901D05001960D7 = {
+			isa = PBXGroup;
+			children = (
+				6197556122901D05001960D7 /* GTIGListKit */,
+				6197557A22901D0C001960D7 /* GTIGListKitTests */,
+				6197558522901D0C001960D7 /* GTIGListKitUITests */,
+				6197556022901D05001960D7 /* Products */,
+				6440669AC18AD0094CFF03F4 /* Pods */,
+				C97619BE17FB455CBED69E59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6197556022901D05001960D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6197555F22901D05001960D7 /* GTIGListKit.app */,
+				6197557722901D0C001960D7 /* GTIGListKitTests.xctest */,
+				6197558222901D0C001960D7 /* GTIGListKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6197556122901D05001960D7 /* GTIGListKit */ = {
+			isa = PBXGroup;
+			children = (
+				6197556222901D05001960D7 /* AppDelegate.h */,
+				6197556322901D05001960D7 /* AppDelegate.m */,
+				6197556522901D05001960D7 /* ViewController.h */,
+				6197556622901D05001960D7 /* ViewController.m */,
+				61975594229053B0001960D7 /* GTListViewController.h */,
+				61975595229053B0001960D7 /* GTListViewController.m */,
+				6197556822901D05001960D7 /* Main.storyboard */,
+				6197556B22901D0B001960D7 /* Assets.xcassets */,
+				6197556D22901D0B001960D7 /* LaunchScreen.storyboard */,
+				6197557022901D0B001960D7 /* Info.plist */,
+				6197557122901D0B001960D7 /* main.m */,
+			);
+			path = GTIGListKit;
+			sourceTree = "<group>";
+		};
+		6197557A22901D0C001960D7 /* GTIGListKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				6197557B22901D0C001960D7 /* GTIGListKitTests.m */,
+				6197557D22901D0C001960D7 /* Info.plist */,
+			);
+			path = GTIGListKitTests;
+			sourceTree = "<group>";
+		};
+		6197558522901D0C001960D7 /* GTIGListKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6197558622901D0C001960D7 /* GTIGListKitUITests.m */,
+				6197558822901D0C001960D7 /* Info.plist */,
+			);
+			path = GTIGListKitUITests;
+			sourceTree = "<group>";
+		};
+		6440669AC18AD0094CFF03F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				790CD11C006F2F2F045B5E59 /* Pods-GTIGListKit.debug.xcconfig */,
+				6D3BCF378768E845BFAF3C7C /* Pods-GTIGListKit.release.xcconfig */,
+				8D6D73841B33823D87A1827C /* Pods-GTIGListKitTests.debug.xcconfig */,
+				EBCF214440F0D14158EDAF0C /* Pods-GTIGListKitTests.release.xcconfig */,
+				C86BAEDB56FB1570B395E6C8 /* Pods-GTIGListKitUITests.debug.xcconfig */,
+				E51B06E52DCAA5B73783B4C7 /* Pods-GTIGListKitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C97619BE17FB455CBED69E59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				178EFFD950E56B3B038F4A0E /* libPods-GTIGListKit.a */,
+				6C73BFCC287752E2D30F5A09 /* libPods-GTIGListKitTests.a */,
+				9F2941FC5A9B5C30E3077BB5 /* libPods-GTIGListKitUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6197555E22901D05001960D7 /* GTIGListKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6197558B22901D0C001960D7 /* Build configuration list for PBXNativeTarget "GTIGListKit" */;
+			buildPhases = (
+				BBA69227F2052CEFE660A045 /* [CP] Check Pods Manifest.lock */,
+				6197555B22901D05001960D7 /* Sources */,
+				6197555C22901D05001960D7 /* Frameworks */,
+				6197555D22901D05001960D7 /* Resources */,
+				9ABD9ADDF60FF7C64DEE66C3 /* [CP] Embed Pods Frameworks */,
+				00E7BD1E3DEC0EBD8C24A960 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTIGListKit;
+			productName = GTIGListKit;
+			productReference = 6197555F22901D05001960D7 /* GTIGListKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6197557622901D0C001960D7 /* GTIGListKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6197558E22901D0C001960D7 /* Build configuration list for PBXNativeTarget "GTIGListKitTests" */;
+			buildPhases = (
+				7E9BF7BA0DD1B56CD020C07F /* [CP] Check Pods Manifest.lock */,
+				6197557322901D0C001960D7 /* Sources */,
+				6197557422901D0C001960D7 /* Frameworks */,
+				6197557522901D0C001960D7 /* Resources */,
+				4BD671E1EE4983CC4B50F9B4 /* [CP] Embed Pods Frameworks */,
+				C242D5195F968C32F842F91E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6197557922901D0C001960D7 /* PBXTargetDependency */,
+			);
+			name = GTIGListKitTests;
+			productName = GTIGListKitTests;
+			productReference = 6197557722901D0C001960D7 /* GTIGListKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6197558122901D0C001960D7 /* GTIGListKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6197559122901D0C001960D7 /* Build configuration list for PBXNativeTarget "GTIGListKitUITests" */;
+			buildPhases = (
+				26F8E44FA5DCE84E9F32F8D0 /* [CP] Check Pods Manifest.lock */,
+				6197557E22901D0C001960D7 /* Sources */,
+				6197557F22901D0C001960D7 /* Frameworks */,
+				6197558022901D0C001960D7 /* Resources */,
+				E9CCF68D32B4BC2F190F83BA /* [CP] Embed Pods Frameworks */,
+				256DE133836CFF0967B1B349 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6197558422901D0C001960D7 /* PBXTargetDependency */,
+			);
+			name = GTIGListKitUITests;
+			productName = GTIGListKitUITests;
+			productReference = 6197558222901D0C001960D7 /* GTIGListKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6197555722901D05001960D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = cocomanber;
+				TargetAttributes = {
+					6197555E22901D05001960D7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6197557622901D0C001960D7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6197555E22901D05001960D7;
+					};
+					6197558122901D0C001960D7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6197555E22901D05001960D7;
+					};
+				};
+			};
+			buildConfigurationList = 6197555A22901D05001960D7 /* Build configuration list for PBXProject "GTIGListKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6197555622901D05001960D7;
+			productRefGroup = 6197556022901D05001960D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6197555E22901D05001960D7 /* GTIGListKit */,
+				6197557622901D0C001960D7 /* GTIGListKitTests */,
+				6197558122901D0C001960D7 /* GTIGListKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6197555D22901D05001960D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6197556F22901D0B001960D7 /* LaunchScreen.storyboard in Resources */,
+				6197556C22901D0B001960D7 /* Assets.xcassets in Resources */,
+				6197556A22901D05001960D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6197557522901D0C001960D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6197558022901D0C001960D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E7BD1E3DEC0EBD8C24A960 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTIGListKit/Pods-GTIGListKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		256DE133836CFF0967B1B349 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTIGListKitUITests/Pods-GTIGListKitUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26F8E44FA5DCE84E9F32F8D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4BD671E1EE4983CC4B50F9B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTIGListKitTests/Pods-GTIGListKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9BF7BA0DD1B56CD020C07F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9ABD9ADDF60FF7C64DEE66C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTIGListKit/Pods-GTIGListKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBA69227F2052CEFE660A045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C242D5195F968C32F842F91E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTIGListKitTests/Pods-GTIGListKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9CCF68D32B4BC2F190F83BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTIGListKitUITests/Pods-GTIGListKitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6197555B22901D05001960D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6197556722901D05001960D7 /* ViewController.m in Sources */,
+				6197557222901D0B001960D7 /* main.m in Sources */,
+				6197556422901D05001960D7 /* AppDelegate.m in Sources */,
+				61975596229053B0001960D7 /* GTListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6197557322901D0C001960D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6197557C22901D0C001960D7 /* GTIGListKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6197557E22901D0C001960D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6197558722901D0C001960D7 /* GTIGListKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6197557922901D0C001960D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6197555E22901D05001960D7 /* GTIGListKit */;
+			targetProxy = 6197557822901D0C001960D7 /* PBXContainerItemProxy */;
+		};
+		6197558422901D0C001960D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6197555E22901D05001960D7 /* GTIGListKit */;
+			targetProxy = 6197558322901D0C001960D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6197556822901D05001960D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6197556922901D05001960D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6197556D22901D0B001960D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6197556E22901D0B001960D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6197558922901D0C001960D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6197558A22901D0C001960D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6197558C22901D0C001960D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790CD11C006F2F2F045B5E59 /* Pods-GTIGListKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GTIGListKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cocomanber.GTIGListKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6197558D22901D0C001960D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D3BCF378768E845BFAF3C7C /* Pods-GTIGListKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GTIGListKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cocomanber.GTIGListKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6197558F22901D0C001960D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D6D73841B33823D87A1827C /* Pods-GTIGListKitTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GTIGListKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cocomanber.GTIGListKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTIGListKit.app/GTIGListKit";
+			};
+			name = Debug;
+		};
+		6197559022901D0C001960D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBCF214440F0D14158EDAF0C /* Pods-GTIGListKitTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GTIGListKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cocomanber.GTIGListKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTIGListKit.app/GTIGListKit";
+			};
+			name = Release;
+		};
+		6197559222901D0C001960D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C86BAEDB56FB1570B395E6C8 /* Pods-GTIGListKitUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GTIGListKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cocomanber.GTIGListKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GTIGListKit;
+			};
+			name = Debug;
+		};
+		6197559322901D0C001960D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51B06E52DCAA5B73783B4C7 /* Pods-GTIGListKitUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GTIGListKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cocomanber.GTIGListKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GTIGListKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6197555A22901D05001960D7 /* Build configuration list for PBXProject "GTIGListKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6197558922901D0C001960D7 /* Debug */,
+				6197558A22901D0C001960D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6197558B22901D0C001960D7 /* Build configuration list for PBXNativeTarget "GTIGListKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6197558C22901D0C001960D7 /* Debug */,
+				6197558D22901D0C001960D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6197558E22901D0C001960D7 /* Build configuration list for PBXNativeTarget "GTIGListKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6197558F22901D0C001960D7 /* Debug */,
+				6197559022901D0C001960D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6197559122901D0C001960D7 /* Build configuration list for PBXNativeTarget "GTIGListKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6197559222901D0C001960D7 /* Debug */,
+				6197559322901D0C001960D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6197555722901D05001960D7 /* Project object */;
+}
